@@ -48,10 +48,6 @@ The implementations include reproductions of published works from the literature
     - one file containing the **sigmoid description** in VHDL,  
     - one file containing the **constant definitions** used in that implementation.  
 
-- `docs/` — Additional notes and comparisons.  
-
-- `tests/` — Testbenches and simulation results.  
-
 - `tools/` — Utility programs. Includes:  
   - `searchBoundaries.m` — An Octave script that calculates the **approximation boundaries** for the approximation proposed, according to the optimization goal (minimizing either **mean error** or **maximum error**).  
 
@@ -60,7 +56,6 @@ The implementations include reproductions of published works from the literature
 ## Usage
 
 Each implementation can be synthesized and tested on FPGA boards from Xilinx, Altera or other compatible devices.  
-Instructions on compilation, synthesis, and testing will be provided in the `docs/` folder.  
 
 ---
 
