@@ -4,7 +4,7 @@ This repository provides a collection of hardware descriptions (in VHDL) of diff
 The goal is to make available reproducible implementations that allow **comparison of accuracy, resource usage, and performance** across different approximation methodologies.
 
 The implementations include reproductions of published works from the literature as well as two original designs we developed:  
-- one optimized for **minimum mean error**,  
+- one optimized for **minimum average error**,  
 - one optimized for **minimum maximum error**.  
 
 ---
@@ -36,7 +36,7 @@ The implementations include reproductions of published works from the literature
   2019 IEEE 15th International Conference on the Experience of Designing and Application of CAD Systems (CADSM), IEEE, 2019.
 
 - **Our implementations**:  
-  - Sigmoid optimized for **minimum mean error**.  
+  - Sigmoid optimized for **minimum average error**.  
   - Sigmoid optimized for **minimum maximum error**.  
 
 ---
