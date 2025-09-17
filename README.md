@@ -44,8 +44,16 @@ The implementations include reproductions of published works from the literature
 ## Structure of the Repository
 
 - `src/` — VHDL source files for each implementation.  
+  - Each implementation is provided as a **pair of files**:  
+    - one file containing the **sigmoid description** in VHDL,  
+    - one file containing the **constant definitions** used in that implementation.  
+
 - `docs/` — Additional notes and comparisons.  
+
 - `tests/` — Testbenches and simulation results.  
+
+- `tools/` — Utility programs. Includes:  
+  - `searchBoundaries.m` — An Octave script that calculates the **approximation boundaries** for the approximation proposed, according to the optimization goal (minimizing either **mean error** or **maximum error**).  
 
 ---
 
