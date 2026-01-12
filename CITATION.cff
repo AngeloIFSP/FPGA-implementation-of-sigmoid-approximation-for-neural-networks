@@ -1,0 +1,39 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite the following article."
+
+title: "FPGA-Based Sigmoid Function Approximation"
+authors:
+  - family-names: Bosso
+    given-names: Vinicius de Azevedo
+  - family-names: Nardini
+    given-names: Ricardo Masson
+  - family-names: Sousa
+    given-names: Miguel Angelo de Abreu de
+  - family-names: Santos
+    given-names: Sara Dereste dos
+  - family-names: Pires
+    given-names: Ricardo
+
+version: "1.0.0"
+date-released: 2025-01-01
+
+preferred-citation:
+  type: article
+  title: "An Area-Efficient and Low-Error FPGA-Based Sigmoid Function Approximation"
+  authors:
+    - family-names: Bosso
+      given-names: Vinicius de Azevedo
+    - family-names: Nardini
+      given-names: Ricardo Masson
+    - family-names: Sousa
+      given-names: Miguel Angelo de Abreu de
+    - family-names: Santos
+      given-names: Sara Dereste dos
+    - family-names: Pires
+      given-names: Ricardo
+  journal: "Applied Sciences"
+  volume: 15
+  issue: 21
+  pages: 11551
+  year: 2025
+  doi: 10.3390/app152111551
