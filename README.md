@@ -9,38 +9,6 @@ The implementations include reproductions of published works from the literature
 
 ---
 
-## References Implemented
-
-- Z. Pan, Z. Gu, X. Jiang, G. Zhu, and D. Ma,  
-  *A modular approximation methodology for efficient fixed-point hardware implementation of the sigmoid function*,  
-  IEEE Transactions on Industrial Electronics, vol. 69, no. 10, pp. 10694–10703, 2022.
-
-- Z. Li, Y. Zhang, B. Sui, Z. Xing, and Q. Wang,  
-  *FPGA implementation for the sigmoid with piecewise linear fitting method based on curvature analysis*,  
-  Electronics, vol. 11, no. 9, p. 1365, 2022.
-
-- S. Vassiliadis, M. Zhang, J. G. Delgado-Frias,  
-  *Elementary function generators for neural-network emulators*,  
-  IEEE Transactions on Neural Networks, vol. 11, no. 6, pp. 1438–1449, 2000.
-
-- F. Liu et al.,  
-  *A novel configurable high-precision and low-cost circuit design of sigmoid and tanh activation function*,  
-  2021 IEEE International Conference on Integrated Circuits, Technologies and Applications (ICTA), IEEE, 2021.
-
-- A. Vaisnav et al.,  
-  *FPGA implementation and comparison of sigmoid and hyperbolic tangent activation functions in an artificial neural network*,  
-  2022 International Conference on Electrical, Computer and Energy Technologies (ICECET), IEEE, 2022.
-
-- I. Tsmots, O. Skorokhoda, and V. Rabyk,  
-  *Hardware implementation of sigmoid activation functions using FPGA*,  
-  2019 IEEE 15th International Conference on the Experience of Designing and Application of CAD Systems (CADSM), IEEE, 2019.
-
-- **Our implementations**:  
-  - Sigmoid optimized for **minimum average error**.  
-  - Sigmoid optimized for **minimum maximum error**.  
-
----
-
 ## Structure of the Repository
 
 - `src/` — VHDL source files for each implementation.  
@@ -53,15 +21,35 @@ The implementations include reproductions of published works from the literature
 
 ---
 
-## Usage
+## Associated Publication
 
-Each implementation can be synthesized and tested on FPGA boards from Xilinx, Altera or other compatible devices.  
+The methods and results implemented in this repository are described in the following peer-reviewed article:
+
+> **An Area-Efficient and Low-Error FPGA-Based Sigmoid Function Approximation**  
+> Vinicius de Azevedo Bosso, Ricardo Masson Nardini, Miguel Angelo de Abreu de Sousa,  
+> Sara Dereste dos Santos, Ricardo Pires  
+> *Applied Sciences*, vol. 15, no. 21, article 11551, 2025.  
+> DOI: https://doi.org/10.3390/app152111551
 
 ---
 
 ## Citation
 
-If you use or reference this repository in academic work, please cite the corresponding original publications listed above and mention this repository as the source of comparative implementations.  
+If you find this code useful in your research, **please consider citing**:
+
+BibTeX example:
+
+```bibtex
+@article{Bosso2025SigmoidFPGA,
+  title   = {An Area-Efficient and Low-Error FPGA-Based Sigmoid Function Approximation},
+  author  = {Bosso, Vinicius de Azevedo and Nardini, Ricardo Masson and Sousa, Miguel Angelo de Abreu de and Santos, Sara Dereste dos and Pires, Ricardo},
+  journal = {Applied Sciences},
+  volume  = {15},
+  number  = {21},
+  pages   = {11551},
+  year    = {2025},
+  doi     = {10.3390/app152111551}
+}
 
 ---
 
