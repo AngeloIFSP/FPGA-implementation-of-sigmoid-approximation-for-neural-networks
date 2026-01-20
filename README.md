@@ -4,7 +4,7 @@ This repository provides a collection of hardware descriptions (in VHDL) of diff
 The goal is to make available reproducible implementations that allow **comparison of accuracy, resource usage, and performance** across different approximation methodologies.
 
 The implementations include reproductions of published works from the literature as well as two original designs we developed:  
-- one optimized for **minimum average error**,  
+- one optimized for **minimum average error** (also available in Verilog),  
 - one optimized for **minimum maximum error**.  
 
 ---
